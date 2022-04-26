@@ -14,9 +14,9 @@ This kind of requirement in object-oriented system is called `mixin`. It can be 
 
 The required class hierarchy is shown as follows.
 The circle I represents an interface, the solid circle C represents a class, the semi-hollow circle C represents an abstract class,
-the green dotted line represents implementing an interface, the green solid line represents inheriting from a parent class.
+the dotted line represents implementing an interface, the solid line represents inheriting from a parent class.
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![hierarchy](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 - You can accomplish this challenge via any way below:
   - Recommended for beginners: run `git clone https://github.com/ByteLegendQuest/java-interface-mixin` to download the code,
@@ -51,9 +51,9 @@ Any changes to files other than the following files will be rejected:**
 这类需求在面向对象系统中叫做`mixin`。接口提供的默认方法`default method`可以实现这一点。
 
 
-要求的继承体系如图所示。其中，圆圈I代表接口，实心圆圈C代表类，半空心圆圈C代表抽象类，绿色虚线代表实现接口，绿色实现代表继承父类。
+要求的继承体系如图所示。其中，圆圈I代表接口，实心圆圈C代表类，半空心圆圈C代表抽象类，虚线代表实现接口，实线代表继承父类。
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![hierarchy](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 - 你可以使用以下任意一种方法完成挑战：
   - 初学者推荐：运行`git clone https://git.bytelegend.com/ByteLegendQuest/java-interface-mixin`将代码下载到本地，在本地使用IDE调试完成后复制到网页编辑器里提交。
@@ -85,9 +85,9 @@ Any changes to files other than the following files will be rejected:**
 
 `Cat`有一個`walk()`方法。 `Fish`有一個`swim()`方法。現在一個`Turtle`想復用`walk()`和`swim()`方法，但是 Java 不允許多重繼承，如何解決這個問題？面向對象系統中的這種需求稱為`mixin` 。可以通過接口默認方法解決。
 
-所需的類層次結構如下所示。圓圈I代表接口，實心圓C代表類，半空心圓C代表抽像類，綠色虛線代表實現接口，綠色實線代表從父類繼承。
+所需的類層次結構如下所示。圓I代表接口，實心圓C代表類，半空心圓C代表抽像類，虛線代表實現接口，實線代表從父類繼承。
 
-![微升](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![等級制度](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   您可以通過以下任何方式完成此挑戰：
     -   建議初學者：運行`git clone https://github.com/ByteLegendQuest/java-interface-mixin`下載代碼，在本地 IDE 中完成挑戰，然後在 Web 編輯器中復制/粘貼/提交答案。
@@ -118,9 +118,9 @@ Refactorice las clases `Cat` / `Fish` en [src/main/java/com/bytelegend/World.jav
 
 `Cat` tiene un método `walk()` . `Fish` tiene un método `swim()` . Ahora una `Turtle` quiere reutilizar los métodos `walk()` y `swim()` , pero Java no permite la herencia múltiple, ¿cómo resolver este problema? Este tipo de requisito en el sistema orientado a objetos se llama `mixin` . Se puede resolver mediante el método predeterminado de la interfaz.
 
-La jerarquía de clases requerida se muestra a continuación. El círculo I representa una interfaz, el círculo sólido C representa una clase, el círculo semihueco C representa una clase abstracta, la línea punteada verde representa la implementación de una interfaz, la línea sólida verde representa la herencia de una clase principal.
+La jerarquía de clases requerida se muestra a continuación. El círculo I representa una interfaz, el círculo sólido C representa una clase, el círculo semihueco C representa una clase abstracta, la línea punteada representa la implementación de una interfaz, la línea sólida representa la herencia de una clase principal.
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![jerarquía](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   Puede lograr este desafío de cualquier manera a continuación:
     -   Recomendado para principiantes: ejecute `git clone https://github.com/ByteLegendQuest/java-interface-mixin` para descargar el código, finalice el desafío en su IDE local, luego copie/pegue/envíe la respuesta en el editor web.
@@ -151,9 +151,9 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 
 `Cat` لديه طريقة `walk()` . `Fish` لها طريقة `swim()` . تريد `Turtle` الآن إعادة استخدام أساليب `walk()` `swim()` ، لكن Java لا تسمح بالميراث المتعدد ، كيف تحل هذه المشكلة؟ يسمى هذا النوع من المتطلبات في النظام الموجه للكائنات `mixin` . يمكن حلها بالطريقة الافتراضية للواجهة.
 
-يتم عرض التسلسل الهرمي المطلوب للفئة على النحو التالي. تمثل الدائرة I واجهة ، وتمثل الدائرة الصلبة C فئة ، وتمثل الدائرة شبه المجوفة C فئة مجردة ، ويمثل الخط المنقط الأخضر تنفيذ واجهة ، ويمثل الخط الصلب الأخضر الموروث من فئة أصل.
+يتم عرض التسلسل الهرمي المطلوب للفئة على النحو التالي. تمثل الدائرة I واجهة ، وتمثل الدائرة الصلبة C فئة ، وتمثل الدائرة شبه المجوفة C فئة مجردة ، ويمثل الخط المنقط تنفيذ واجهة ، ويمثل الخط الصلب الميراث من فئة أصل.
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![التسلسل الهرمي](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   يمكنك إنجاز هذا التحدي بأي طريقة أدناه:
     -   موصى به للمبتدئين: قم بتشغيل `git clone https://github.com/ByteLegendQuest/java-interface-mixin` لتنزيل الكود ، وإنهاء التحدي في IDE المحلي الخاص بك ، ثم نسخ / لصق / إرسال الإجابة في محرر الويب.
@@ -184,16 +184,16 @@ Por favor refatore as classes `Cat` / `Fish` em [src/main/java/com/bytelegend/Wo
 
 `Cat` tem um método `walk()` . `Fish` tem um método `swim()` . Agora uma `Turtle` quer reutilizar os métodos `walk()` e `swim()` , mas Java não permite herança múltipla, como resolver esse problema? Esse tipo de requisito no sistema orientado a objetos é chamado de `mixin` . Pode ser resolvido pelo método padrão da interface.
 
-A hierarquia de classe necessária é mostrada a seguir. O círculo I representa uma interface, o círculo sólido C representa uma classe, o círculo semi-oco C representa uma classe abstrata, a linha pontilhada verde representa a implementação de uma interface, a linha sólida verde representa a herança de uma classe pai.
+A hierarquia de classe necessária é mostrada a seguir. O círculo I representa uma interface, o círculo sólido C representa uma classe, o círculo semi-oco C representa uma classe abstrata, a linha pontilhada representa a implementação de uma interface, a linha sólida representa a herança de uma classe pai.
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![hierarquia](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-interface-mixin` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta no editor da web.
-        -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-interface-mixin/zip/refs/heads/main) se não gostar das operações do `git` .
-    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
     -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-interface-mixin) , finalizar o desafio e criar um pull request.
 -   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
@@ -217,9 +217,9 @@ Harap perbaiki kelas `Cat` / `Fish` di [src/main/Java/com/bytelegend/World.java]
 
 `Cat` memiliki metode `walk()` . `Fish` memiliki metode `swim()` . Sekarang `Turtle` ingin menggunakan kembali metode `walk()` dan `swim()` , tetapi Java tidak mengizinkan pewarisan berganda, bagaimana cara mengatasi masalah ini? Persyaratan semacam ini dalam sistem berorientasi objek disebut `mixin` . Ini dapat diselesaikan dengan metode default antarmuka.
 
-Hirarki kelas yang diperlukan ditunjukkan sebagai berikut. Lingkaran I mewakili antarmuka, lingkaran padat C mewakili kelas, lingkaran setengah berongga C mewakili kelas abstrak, garis putus-putus hijau mewakili implementasi antarmuka, garis hijau solid mewakili pewarisan dari kelas induk.
+Hirarki kelas yang diperlukan ditunjukkan sebagai berikut. Lingkaran I mewakili antarmuka, lingkaran padat C mewakili kelas, lingkaran setengah berongga C mewakili kelas abstrak, garis putus-putus mewakili penerapan antarmuka, garis padat mewakili pewarisan dari kelas induk.
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![hirarki](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   Anda dapat menyelesaikan tantangan ini melalui cara apa pun di bawah ini:
     -   Direkomendasikan untuk pemula: jalankan `git clone https://github.com/ByteLegendQuest/java-interface-mixin` untuk mengunduh kode, selesaikan tantangan di IDE lokal Anda, lalu salin/tempel/kirim jawabannya di editor web.
@@ -250,9 +250,9 @@ Veuillez refactoriser les classes `Cat` / `Fish` dans [src/main/java/com/byteleg
 
 `Cat` a une méthode `walk()` . `Fish` a une méthode `swim()` . Maintenant une `Turtle` veut réutiliser les méthodes `walk()` et `swim()` , mais Java n'autorise pas l'héritage multiple, comment résoudre ce problème ? Ce type d'exigence dans un système orienté objet est appelé `mixin` . Il peut être résolu par la méthode par défaut de l'interface.
 
-La hiérarchie de classes requise est illustrée ci-dessous. Le cercle I représente une interface, le cercle plein C représente une classe, le cercle semi-creux C représente une classe abstraite, le trait pointillé vert représente l'implémentation d'une interface, le trait plein vert représente l'héritage d'une classe mère.
+La hiérarchie de classes requise est illustrée ci-dessous. Le cercle I représente une interface, le cercle plein C représente une classe, le cercle semi-creux C représente une classe abstraite, le trait pointillé représente l'implémentation d'une interface, le trait plein représente l'héritage d'une classe mère.
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![hiérarchie](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   Vous pouvez accomplir ce défi de n'importe quelle manière ci-dessous:
     -   Recommandé pour les débutants : exécutez `git clone https://github.com/ByteLegendQuest/java-interface-mixin` pour télécharger le code, terminez le défi dans votre IDE local, puis copiez/collez/soumettez la réponse dans l'éditeur Web.
@@ -283,9 +283,9 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 `Cat`には`walk()`メソッドがあります。 `Fish`には`swim()`メソッドがあります。 `Turtle`は`walk()` ）メソッドと`swim()`メソッドを再利用したいと考えていますが、Javaでは多重継承が許可されていません。この問題を解決するにはどうすればよいですか？オブジェクト指向システムにおけるこの種の要件は、 `mixin`と呼ばれます。これは、インターフェイスのデフォルトの方法で解決できます。
 
-必要なクラス階層は次のとおりです。円Iはインターフェースを表し、実線の円Cはクラスを表し、半中空の円Cは抽象クラスを表し、緑色の点線はインターフェースの実装を表し、緑色の実線は親クラスからの継承を表します。
+必要なクラス階層は次のとおりです。円Iはインターフェースを表し、実線の円Cはクラスを表し、半中空の円Cは抽象クラスを表し、点線はインターフェースの実装を表し、実線は親クラスからの継承を表します。
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![階層](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   この課題は、以下のいずれかの方法で達成できます。
     -   初心者に推奨： `git clone https://github.com/ByteLegendQuest/java-interface-mixin`を実行してコードをダウンロードし、ローカルIDEでチャレンジを終了してから、Webエディターで回答をコピー/貼り付け/送信します。
@@ -316,9 +316,9 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 У `Cat` есть метод `walk()` . У `Fish` есть метод `swim()` . Теперь `Turtle` хочет повторно использовать методы `walk()` и `swim()` , но Java не допускает множественного наследования, как решить эту проблему? Такое требование в объектно-ориентированной системе называется `mixin` . Это может быть решено методом интерфейса по умолчанию.
 
-Требуемая иерархия классов показана ниже. Круг I представляет интерфейс, сплошной круг C представляет класс, полупустой круг C представляет абстрактный класс, зеленая пунктирная линия представляет реализацию интерфейса, зеленая сплошная линия представляет наследование от родительского класса.
+Требуемая иерархия классов показана ниже. Круг I представляет интерфейс, сплошной круг C представляет класс, полупустой круг C представляет абстрактный класс, пунктирная линия представляет реализацию интерфейса, сплошная линия представляет наследование от родительского класса.
 
-![умл](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![иерархия](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   Вы можете выполнить эту задачу любым способом, указанным ниже:
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-interface-mixin` , чтобы загрузить код, выполните задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редакторе.
@@ -349,9 +349,9 @@ Bitte überarbeiten Sie die Klassen `Cat` / `Fish` in [src/main/java/com/byteleg
 
 `Cat` hat eine `walk()` Methode. `Fish` hat eine `swim()` Methode. Jetzt möchte eine `Turtle` die Methoden `walk()` und `swim()` wiederverwenden, aber Java erlaubt keine Mehrfachvererbung, wie kann man dieses Problem lösen? Diese Art von Anforderung in objektorientierten Systemen wird `mixin` genannt. Es kann durch die Standardmethode der Schnittstelle gelöst werden.
 
-Die erforderliche Klassenhierarchie wird wie folgt dargestellt. Der Kreis I stellt eine Schnittstelle dar, der durchgezogene Kreis C stellt eine Klasse dar, der halbhohle Kreis C stellt eine abstrakte Klasse dar, die grüne gepunktete Linie stellt die Implementierung einer Schnittstelle dar, die grüne durchgezogene Linie stellt das Erben von einer Elternklasse dar.
+Die erforderliche Klassenhierarchie wird wie folgt dargestellt. Der Kreis I stellt eine Schnittstelle dar, der durchgezogene Kreis C stellt eine Klasse dar, der halbhohle Kreis C stellt eine abstrakte Klasse dar, die gepunktete Linie stellt die Implementierung einer Schnittstelle dar, die durchgezogene Linie stellt das Erben von einer Elternklasse dar.
 
-![ähm](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![Hierarchie](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   Sie können diese Herausforderung auf eine der folgenden Arten meistern:
     -   Empfohlen für Anfänger: Führen Sie `git clone https://github.com/ByteLegendQuest/java-interface-mixin` aus, um den Code herunterzuladen, beenden Sie die Herausforderung in Ihrer lokalen IDE und kopieren/fügen Sie dann die Antwort im Web-Editor ein/übermitteln Sie sie.
@@ -382,12 +382,12 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 
 `Cat` 에는 `walk()` 메서드가 있습니다. `Fish` 에는 `swim()` 메서드가 있습니다. 이제 `Turtle` 은 `walk()` 및 `swim()` 메서드를 재사용하려고 하지만 Java는 다중 상속을 허용하지 않습니다. 이 문제를 해결하는 방법은 무엇입니까? 객체 지향 시스템에서 이러한 종류의 요구 사항을 `mixin` 이라고 합니다. 인터페이스 기본 방법으로 해결할 수 있습니다.
 
-필요한 클래스 계층은 다음과 같습니다. 원 I은 인터페이스를 나타내고, 실선 원 C는 클래스를 나타내고, 반 중공 원 C는 추상 클래스를 나타내고, 녹색 점선은 인터페이스 구현을 나타내고, 녹색 실선은 부모 클래스에서 상속을 나타냅니다.
+필요한 클래스 계층은 다음과 같습니다. 원 I은 인터페이스를 나타내고, 실선 C는 클래스를 나타내고, 반 중공 원 C는 추상 클래스를 나타내고, 점선은 인터페이스 구현을 나타내고, 실선은 부모 클래스로부터 상속을 나타냅니다.
 
-![음](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![계층](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
-    -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-interface-mixin` 을 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출합니다.
+    -   초보자에게 권장: `git clone https://github.com/ByteLegendQuest/java-interface-mixin` 을 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출합니다.
         -   방법을 모르는 경우 [프로젝트를 IDEA로](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/clone-and-import.md) [가져오기 / 프로젝트를 VSCode로 가져](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/clone-and-import-vscode.md) 오기를 클릭할 수 있습니다.
         -   코드를 제출하기 전에 시간을 절약하기 위해 로컬에서 `mvn verify` 를 실행하는 것이 좋습니다. 방법을 모르십니까? [IDEA에서 로컬로](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/run-mvn-verify-idea.md) [확인/VSCode에서 로컬로](https://github.com/ByteLegendQuest/java-interface-mixin/blob/main/docs/en/run-mvn-verify-vscode.md) 확인을 참조하세요.
     -   매우 권장하지 않음: `git` 작업이 마음에 들지 않으면 [여기를 클릭하여 압축 코드를 다운로드](https://codeload.github.com/ByteLegendQuest/java-interface-mixin/zip/refs/heads/main) 할 수 있습니다.
@@ -415,9 +415,9 @@ Per favore refactoring delle classi `Cat` / `Fish` in [src/main/java/com/byteleg
 
 `Cat` ha un metodo `walk()` . `Fish` ha un metodo `swim()` . Ora una `Turtle` vuole riutilizzare i metodi `walk()` e `swim()` , ma Java non consente l'ereditarietà multipla, come risolvere questo problema? Questo tipo di requisito nel sistema orientato agli oggetti è chiamato `mixin` . Può essere risolto con il metodo predefinito dell'interfaccia.
 
-La gerarchia di classi richiesta è mostrata come segue. Il cerchio I rappresenta un'interfaccia, il cerchio pieno C rappresenta una classe, il cerchio semi-cavo C rappresenta una classe astratta, la linea tratteggiata verde rappresenta l'implementazione di un'interfaccia, la linea continua verde rappresenta l'ereditarietà da una classe genitore.
+La gerarchia di classi richiesta è mostrata come segue. Il cerchio I rappresenta un'interfaccia, il cerchio pieno C rappresenta una classe, il cerchio semi-cavo C rappresenta una classe astratta, la linea tratteggiata rappresenta l'implementazione di un'interfaccia, la linea continua rappresenta l'ereditarietà da una classe genitore.
 
-![uml](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
+![gerarchia](https://raw.githubusercontent.com/ByteLegendQuest/java-interface-mixin/main/docs/hierarchy.png)
 
 -   Puoi portare a termine questa sfida in qualsiasi modo di seguito:
     -   Consigliato per i principianti: esegui `git clone https://github.com/ByteLegendQuest/java-interface-mixin` per scaricare il codice, completa la sfida nel tuo IDE locale, quindi copia/incolla/invia la risposta nell'editor web.
