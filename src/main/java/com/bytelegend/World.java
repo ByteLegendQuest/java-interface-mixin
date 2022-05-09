@@ -39,24 +39,27 @@ abstract class SwimmingAnimal {
     }
 }
 
-class Cat extends WalkingAnimal {
+class Cat extends Animal implements Walking {
     public Cat(String name) {
         super(name);
     }
 }
 
-class Fish extends SwimmingAnimal {
+class Fish extends Animal implements Swimming {
     public Fish(String name) {
         super(name);
     }
 }
 
-/*
 interface Swimming {
-    default void swim();
+    default void swim() {
+        System.out.println(this.getClass().getSimpleName() + " is swimming");
+    }
 }
 interface Walking {
-    default void walk();
+    default void walk() {
+        System.out.println(this.getClass().getSimpleName() + " is walking");
+    }
 }
 abstract class Animal {
     private final String name;
@@ -66,5 +69,8 @@ abstract class Animal {
 }
 
 class Turtle extends Animal implements Swimming, Walking {
+    public Turtle(String name) {
+        super(name);
+    }
+
 }
-*/
