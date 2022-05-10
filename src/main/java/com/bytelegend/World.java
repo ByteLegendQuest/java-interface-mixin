@@ -15,48 +15,56 @@ public class World {
     }
 }
 
-class Cat extends Animal implements Walking {
+abstract class WalkingAnimal {
+    private final String name;
+
+    public WalkingAnimal(String name) {
+        this.name = name;
+    }
+
+    public void walk() {
+        System.out.println(name + " is walking");
+    }
+}
+
+abstract class SwimmingAnimal {
+    private final String name;
+
+    public SwimmingAnimal(String name) {
+        this.name = name;
+    }
+
+    public void swim() {
+        System.out.println(name + " is swimming");
+    }
+}
+
+class Cat extends WalkingAnimal {
     public Cat(String name) {
         super(name);
     }
 }
 
-class Fish extends Animal implements Swimming {
+class Fish extends SwimmingAnimal {
     public Fish(String name) {
         super(name);
     }
 }
 
+/*
 interface Swimming {
-    String name();
-
-    default void swim() {
-        System.out.println(name() + " is swimming");
-    }
+    default void swim();
 }
-
 interface Walking {
-    String name();
-
-    default void walk() {
-        System.out.println(name() + " is walking");
-    }
+    default void walk();
 }
-
 abstract class Animal {
-    protected final String name;
-
+    private final String name;
     public Animal(String name) {
         this.name = name;
-    }
-
-    public String name() {
-        return name;
     }
 }
 
 class Turtle extends Animal implements Swimming, Walking {
-    public Turtle(String name) {
-        super(name);
-    }
 }
+*/
