@@ -15,17 +15,27 @@ public class World {
     }
 }
 
-abstract class WalkingAnimal extends Animal implements Walking {
+abstract class WalkingAnimal {
+    private final String name;
 
     public WalkingAnimal(String name) {
-        super(name);
+        this.name = name;
+    }
+
+    public void walk() {
+        System.out.println(name + " is walking");
     }
 }
 
-abstract class SwimmingAnimal extends Animal implements Swimming {
+abstract class SwimmingAnimal {
+    private final String name;
 
     public SwimmingAnimal(String name) {
-        super(name);
+        this.name = name;
+    }
+
+    public void swim() {
+        System.out.println(name + " is swimming");
     }
 }
 
@@ -41,34 +51,20 @@ class Fish extends SwimmingAnimal {
     }
 }
 
-interface NameOwner {
-    String getName();
+/*
+interface Swimming {
+    default void swim();
 }
-
-interface Swimming extends NameOwner {
-    default void swim() {
-        System.out.println(getName() + " is swimming");
-    }
+interface Walking {
+    default void walk();
 }
-interface Walking extends NameOwner {
-    default void walk() {
-        System.out.println(getName() + " is walking");
-    }
-}
-abstract class Animal implements NameOwner {
+abstract class Animal {
     private final String name;
     public Animal(String name) {
         this.name = name;
     }
-
-    @Override
-    public String getName() {
-        return name;
-    }
 }
 
 class Turtle extends Animal implements Swimming, Walking {
-    public Turtle(String name) {
-        super(name);
-    }
 }
+*/
