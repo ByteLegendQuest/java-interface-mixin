@@ -1,7 +1,5 @@
 package com.bytelegend;
 
-import javax.naming.Name;
-
 public class World {
     /**
      * `Cat` has a `walk()` method. `Fish` has a `swim()` method. Now a `Turtle` wants to reuse
